@@ -1,0 +1,91 @@
+.profile_screen{
+    height:100vh;
+    color:white;
+}
+.profile_screen_body{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    max-width: 800px;
+}
+.profile_screen_body>h1{
+    font-size:40px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+}
+.profile_screen_info{
+    display: flex;
+}
+.profile_screen_info>img{
+    height: 100px;
+}
+.profile_screen_details{
+color: white;
+flex: 1;
+margin-left: 25px;
+}
+.profile_screen_details>h2{
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.profile_screen_plans>button{
+    padding: 10px 20px;
+    border: none;
+    color:white;
+    cursor: pointer;
+    outline-width: 0;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    background-color: #e50914;
+}
+.profile_screen_plans{
+    padding: 3px;
+}
+.active_plan{
+    margin-top: 5px;
+    color:green;
+
+}
+.more_plans{
+    display: flex;
+    flex-direction: column;
+}
+.more_plans_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #282c2d;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+.more_plans_items>h4{
+    display: grid;
+    place-items: center;
+}
+.more_plans_items:hover{
+    color:#e50914;
+    border-bottom: 1px solid #e50914;
+}
+.more_plans_items>button{
+    padding: 10px 20px;
+    border: none;
+    color:white;
+    
+    outline-width: 0;
+    font-size: 1rem;
+    margin-top: 5%;
+    cursor: pointer;
+    background-color: #e50914;
+}
